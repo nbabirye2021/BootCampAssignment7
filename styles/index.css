@@ -1,0 +1,65 @@
+
+body{
+    background-image: url(../netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.8;
+}
+.items{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+ul{
+    float:left;
+    margin-left:-60px;
+}
+ul#list li{
+   
+    display:inline;
+    
+}
+li{padding: 20px ;}
+
+
+.card{
+    width: 400px;
+    height:80%;
+    background-color:black;
+    color:white;
+  margin:auto;
+
+    padding: 50px;
+    float: center;
+    
+    opacity: 0 px;
+}
+input[type=text]{
+    width:100%;
+    padding:20px 2px;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    
+    
+   }
+input[type=submit]{
+    width:100%;
+    padding:20px 2px;
+    background-color:red;
+    border-radius: 5px;
+    color:white;
+}
+::placeholder{
+    color: white;
+    opacity: 0.5px;
+    /*
+    font-family:Arial;
+   
+  
+    */
+    font-size: 20px;
+    font-weight: 100;
+
+}
+ 
