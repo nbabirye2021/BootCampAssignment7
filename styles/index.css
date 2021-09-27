@@ -8,11 +8,13 @@ body{
 .items{
     margin-top: 20px;
     margin-bottom: 30px;
+   
 }
 
 ul{
     float:left;
     margin-left:-60px;
+    opacity: 50%;
 }
 ul#list li{
    
@@ -33,6 +35,7 @@ li{padding: 20px ;}
     float: center;
     
     opacity: 0 px;
+    
 }
 input[type=text]{
     width:100%;
@@ -40,7 +43,10 @@ input[type=text]{
     border-radius: 5px;
     background-color: grey;
     color: white;
-    
+    font-family:Arial, Helvetica, sans-serif;
+    word-spacing: 0%;
+    opacity:50%;
+
     
    }
 input[type=submit]{
@@ -49,17 +55,42 @@ input[type=submit]{
     background-color:red;
     border-radius: 5px;
     color:white;
+   
 }
 ::placeholder{
     color: white;
-    opacity: 0.5px;
-    /*
-    font-family:Arial;
+    
+   font-family:Arial, Helvetica, sans-serif;
+    word-spacing: 0%;
+
+   font-size: 20px;
    
-  
-    */
-    font-size: 20px;
-    font-weight: 100;
+color:thistle;
 
 }
- 
+ a{
+     text-decoration: none;
+     color: white;
+     
+ }
+a:visited{
+    color:white;
+}
+
+
+.p1{
+    /* float: inline-end; */
+    color: white;
+    opacity: 50%;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    word-spacing: 0%;
+}
+#sign{
+    opacity: 100%;
+}
+
+.Learn{
+    color: #0071eb;
+    opacity: 100%;
+}
